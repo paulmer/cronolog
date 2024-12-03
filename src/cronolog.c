@@ -315,7 +315,7 @@ main(int argc, char **argv)
 	    n_bytes_read = read(0, read_buf, sizeof read_buf);
 	    if (n_bytes_read == 0)
 	    {
-		exit(3);
+		exit(0);
 	    }
 	    if (n_bytes_read < 0)
 	    {
